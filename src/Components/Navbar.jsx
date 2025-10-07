@@ -7,10 +7,10 @@ const Navbar = () => {
   const location = useLocation();
 
   const navItems = [
-    { path: '/', label: 'Home', icon: '🏠' },
-    { path: '/product', label: 'Products', icon: '🛒' },
-    { path: '/about', label: 'About', icon: 'ℹ️' },
-    { path: '/contact', label: 'Contact', icon: '📞' },
+    { path: '/', label: 'Home', },
+    { path: '/product', label: 'Products', },
+    { path: '/about', label: 'About', },
+    { path: '/contact', label: 'Contact', },
   ];
 
   const isActivePath = (path) => {
